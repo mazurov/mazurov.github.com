@@ -24,8 +24,8 @@ in 32 and 64 bit). We call it <a href="http://github.com/mazurov/castorfs">Casto
 implementation, with emphasis on performance and caching&nbsp;aspects.
 
 ### Links
-* <a href="http://github.com/mazurov/castorfs">Github&nbsp;repository</a></li>
-* <a href="http://picasaweb.google.com/Alexander.Mazurov/Prague2009#5321176214170319746">My Poster at CHEP&nbsp;2009</a>
+* [Github&nbsp;repository][CASTORFS_github] <img src="/images/github.png"/>
+* [Poster at CHEP&nbsp;2009][CASTORFS_poster]
 
 ## Backend for "Bank VTB24" web site
 * Created in April&nbsp;2007
@@ -39,3 +39,5 @@ implementation, with emphasis on performance and caching&nbsp;aspects.
 
 [CERN]: http://cern.ch
 [CASTOR]: http://castor.web.cern.ch/castor/
+[CASTORFS_github]: http://github.com/mazurov/castorfs
+[CASTORFS_poster]: http://picasaweb.google.com/Alexander.Mazurov/Prague2009#5321176214170319746
