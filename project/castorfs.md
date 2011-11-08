@@ -3,11 +3,11 @@ layout: layout
 title: CastorFs  filesystem
 ---
 * Created in spring&nbsp;2009
-* At <a href="http://cern.ch">CERN</a><
+* At [CERN][]</a><
 * I create  program which can mount <a href="http://castor.web.cern.ch/castor/">Castor</a> as a POSIX&nbsp;filesystem
 
 ## Description
-<a href="http://castor.web.cern.ch/castor/">Castor</a> provides a powerful and rich interface for managing files and pools of
+[CASTOR][] provides a powerful and rich interface for managing files and pools of
 files backed by tape-storage. The API is modelled very closely on that of a POSIX filesystem,
 where part of the actual I/O part is handled by the rfio library. While the API is very close
 to POSIX it is still separated, which unfortunately makes it impossible to use standard tools
@@ -22,3 +22,6 @@ implementation, with emphasis on performance and caching&nbsp;aspects.
 ## Links
 * <a href="http://github.com/mazurov/castorfs">Github&nbsp;repository</a></li>
 * <a href="http://picasaweb.google.com/Alexander.Mazurov/Prague2009#5321176214170319746">My Poster at CHEP&nbsp;2009</a></li>
+
+[CERN]: http://cern.ch
+[CASTOR]: http://castor.web.cern.ch/castor/
