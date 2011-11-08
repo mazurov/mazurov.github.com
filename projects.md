@@ -26,3 +26,13 @@ implementation, with emphasis on performance and caching&nbsp;aspects.
 ### Links
 * <a href="http://github.com/mazurov/castorfs">Github&nbsp;repository</a></li>
 * <a href="http://picasaweb.google.com/Alexander.Mazurov/Prague2009#5321176214170319746">My Poster at CHEP&nbsp;2009</a>
+
+## Backend Bank VTB24 site
+* Created in April&nbsp;2007
+* At <a href="http://www.artlebedev.ru">ArtLevedev</a>&nbsp;studio
+* I ported  CMS Imprimatur1 to ASP.NET&nbsp;platform.
+* And used ASP.NET, NHibernate, MonoRail, XML,&nbsp;XSLT.
+
+### Links
+* <a href="http://www.artlebedev.ru/everything/vneshtorgbank/24/">Information about site (in&nbsp;russian)</a>
+* <a href="http://www.artlebedev.com/everything/vneshtorgbank/24/">Information about site (in&nbsp;english)</a>
