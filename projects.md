@@ -3,7 +3,7 @@ layout: post
 title: Projects
 ---
 
-## 2. CastorFS
+## CastorFS
 
 * Created in spring&nbsp;2009
 * At <a href="http://cern.ch">CERN</a>
@@ -27,7 +27,7 @@ implementation, with emphasis on performance and caching&nbsp;aspects.
 * <a href="http://github.com/mazurov/castorfs">Github&nbsp;repository</a></li>
 * <a href="http://picasaweb.google.com/Alexander.Mazurov/Prague2009#5321176214170319746">My Poster at CHEP&nbsp;2009</a>
 
-## 1. Backend for "Bank VTB24" web site
+## Backend for "Bank VTB24" web site
 * Created in April&nbsp;2007
 * At <a href="http://www.artlebedev.ru">ArtLevedev</a>&nbsp;studio
 * I ported  CMS Imprimatur1 to ASP.NET&nbsp;platform.
