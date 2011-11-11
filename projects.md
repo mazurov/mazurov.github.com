@@ -20,22 +20,24 @@ languages other than C/C++ such as is frequently the case in web-apps. Here up t
 only the recourse was to use command-line utilities and parse their output, which is clearly a
 kludge. We have implemented a complete POSIX filesystem to access <a href="http://castor.web.cern.ch/castor/">Castor</a> using <a href="http://fuse.sourceforge.net/">FUSE</a>
 (Filesystem in Userspace) and have successfully tested and used this on SLC4 and SLC5 (both
-in 32 and 64 bit). We call it <a href="http://github.com/mazurov/castorfs">CastorFS</a>. In this paper we will present its architecture and
+in 32 and 64 bit). We call it [CastorFS][]. In this paper we will present its architecture and
 implementation, with emphasis on performance and caching&nbsp;aspects.
 
 ### Links
-* <a href="http://github.com/mazurov/castorfs">Github&nbsp;repository</a></li>
-* <a href="http://picasaweb.google.com/Alexander.Mazurov/Prague2009#5321176214170319746">My Poster at CHEP&nbsp;2009</a>
+* [Github&nbsp;repository][CastorFS]
+* [Poster at CHEP&nbsp;2009][Poster]
 
 ## Backend for "Bank VTB24" web site
 * Created in April&nbsp;2007
-* At <a href="http://www.artlebedev.ru">ArtLevedev</a>&nbsp;studio
-* I ported  CMS Imprimatur1 to ASP.NET&nbsp;platform.
-* And used ASP.NET, NHibernate, MonoRail, XML,&nbsp;XSLT.
 
 ### Links
-* <a href="http://www.artlebedev.ru/everything/vneshtorgbank/24/">Information about site (in&nbsp;russian)</a>
-* <a href="http://www.artlebedev.com/everything/vneshtorgbank/24/">Information about site (in&nbsp;english)</a>
+* [Information about site (in&nbsp;russian)][al_ru]
+* [Information about site (in&nbsp;english)][al_en]
 
 [CERN]: http://cern.ch
 [CASTOR]: http://castor.web.cern.ch/castor/
+[FUSE]: http://fuse.sourceforge.net/
+[CastorFS]: http://github.com/mazurov/castorfs
+[poster]: http://picasaweb.google.com/Alexander.Mazurov/Prague2009#5321176214170319746
+[al_ru]: http://www.artlebedev.ru/everything/vneshtorgbank/24/
+[al_en]: http://www.artlebedev.com/everything/vneshtorgbank/24/
