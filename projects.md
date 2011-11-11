@@ -18,7 +18,7 @@ to POSIX it is still separated, which unfortunately makes it impossible to use s
 and scripts straight away. This is particularly inconvenient when applications are written in
 languages other than C/C++ such as is frequently the case in web-apps. Here up to now the
 only the recourse was to use command-line utilities and parse their output, which is clearly a
-kludge. We have implemented a complete POSIX filesystem to access <a href="http://castor.web.cern.ch/castor/">Castor</a> using <a href="http://fuse.sourceforge.net/">FUSE</a>
+kludge. We have implemented a complete POSIX filesystem to access [CASTOR][]] using [FUSE][]
 (Filesystem in Userspace) and have successfully tested and used this on SLC4 and SLC5 (both
 in 32 and 64 bit). We call it [CastorFS][]. In this paper we will present its architecture and
 implementation, with emphasis on performance and caching&nbsp;aspects.
@@ -36,6 +36,7 @@ implementation, with emphasis on performance and caching&nbsp;aspects.
 
 [CERN]: http://cern.ch
 [CASTOR]: http://castor.web.cern.ch/castor/
+
 [FUSE]: http://fuse.sourceforge.net/
 [CastorFS]: http://github.com/mazurov/castorfs
 [poster]: http://picasaweb.google.com/Alexander.Mazurov/Prague2009#5321176214170319746
