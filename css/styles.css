@@ -397,3 +397,13 @@ h3{
   font-size: 13px;
   font-weight: bold;
 }
+
+/* Subtitles */
+.subtitles tr {
+  vertical-align: top;
+}
+
+.subtitles .sub_no {
+  color: gray;
+  font-size: 80%;
+}
