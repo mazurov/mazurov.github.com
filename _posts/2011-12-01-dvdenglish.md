@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How To Use DVDs to Improve Your English"
-category: English
+category: english
 ---
 [Source][dvd]
 
