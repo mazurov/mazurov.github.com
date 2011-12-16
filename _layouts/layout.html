@@ -14,30 +14,17 @@
   <link media="only screen and (max-device-width: 480px)" href="/css/ios.css" type="text/css" rel="stylesheet" />
   <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
   <script type="text/javascript" src="/js/application.js"></script>
   <script type="text/javascript" src="/js/flexible-nav.min.js"></script>
+  <script type="text/javascript" src="/js/highcharts.js"></script>
+  <script type="text/javascript" src="/js/hc-themes/grid.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
       {{ page.script }}
       new FlexibleNav( new FlexibleNavMaker().make().prependTo('body') );
     });
   </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX", "output/HTML-CSS"],
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-      processEscapes: true
-    },
-    "HTML-CSS": { availableFonts: ["TeX"] }
-  });
-</script>
-<script type="text/javascript"
-   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
 </head>
 <body>
 
