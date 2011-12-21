@@ -20,7 +20,7 @@ google.setOnLoadCallback(function() {
   
   cputree_table(db_3lines, "lines3db_div");
   cputree_table(db_hlt1trackalll0, "l0db_div");
-  cputree_table(db_hlt1trackalll0, "dimuonhighmassdb_div");
+  cputree_table(db_hlt1dimuonhighmass, "dimuonhighmassdb_div");
 });
 
 </script>
