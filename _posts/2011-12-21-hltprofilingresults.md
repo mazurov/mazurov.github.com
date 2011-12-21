@@ -12,15 +12,19 @@ var db_hlt1trackalll0 = ["Total", 483791.0, [["Hlt1TrackAllL0FilterSequence", 47
 
 var db_hlt1dimuonhighmass = ["Total", 661848.0, [["Hlt1DiMuonHighMassFilterSequence", 650362.0, [["Hlt1DiMuonHighMassStreamer", 620920.0, [["FastVeloHlt", 108248.0, []], ["MuonRec", 22132.0, []], ["Velo2CandidatesDiMuonHighMass", 6504.0, []]]], ["GECLooseUnit", 25692.0, [["createVeloLiteClusters", 15734.0, []], ["createITLiteClusters", 9958.0, []]]]]], ["Hlt1DiMuonHighMassL0DUFilterSequence", 10564.0, [["L0DUFromRaw", 10478.0, []], ["Hlt1DiMuonHighMassL0DUFilter", 86.0, []]]], ["Other", 511.0, []], ["Hlt1DiMuonHighMassPreScaler", 10.0, []]]];
 
+var db_hlt1dimuonlowmass = ["Total", 814979.0, [["Hlt1DiMuonLowMassFilterSequence", 799602.0, [["Hlt1DiMuonLowMassStreamer", 528579.0, [["MuonRec", 27863.0, []], ["Velo2CandidatesDiMuonLowMass", 7662.0, []]]], ["HltPV3D", 216873.0, [["FastVeloHlt", 151668.0, []], ["HltPVsPV3D", 65205.0, []]]], ["GECLooseUnit", 46538.0, [["createVeloLiteClusters", 29726.0, []], ["createITLiteClusters", 16812.0, []]]]]], ["Hlt1DiMuonLowMassL0DUFilterSequence", 11815.0, [["L0DUFromRaw", 11815.0, []]]], ["Other", 1327.0, []]]];
+
 google.load("visualization", "1", {packages:["corechart", "table"]});
 google.setOnLoadCallback(function() { 
   cputree_draw_chart([],db_3lines, "lines3_div");
   cputree_draw_chart([],db_hlt1trackalll0, "l0_div");
   cputree_draw_chart([],db_hlt1dimuonhighmass, "dimuonhighmass_div");
+  cputree_draw_chart([],db_hlt1dimuonlowmass, "dimuonlowmass_div");
   
   cputree_table(db_3lines, "lines3db_div");
   cputree_table(db_hlt1trackalll0, "l0db_div");
   cputree_table(db_hlt1dimuonhighmass, "dimuonhighmassdb_div");
+  cputree_table(db_hlt1dimuonlowmass, "dimuonlowmassdb_div");
 });
 
 </script>
@@ -45,6 +49,10 @@ google.setOnLoadCallback(function() {
 
 <div id="dimuonhighmass_div"></div>
 <div id="dimuonhighmassdb_div"></div>
+
+# Line Hlt1DiMuonLowMass
+<div id="dimuonlowmass_div"></div>
+<div id="dimuonlowmassdb_div"></div>
 
 # Screenshots from Intel Amplifier
 
