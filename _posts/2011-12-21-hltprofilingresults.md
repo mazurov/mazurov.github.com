@@ -45,3 +45,11 @@ google.setOnLoadCallback(function() {
 
 <div id="dimuonhighmass_div"></div>
 <div id="dimuonhighmassdb_div"></div>
+
+# Screenshots from Intel Amplifier
+
+* [Common window][ampl_common]
+* [In source code][ampl_source]
+
+[ampl_common]: http://cl.ly/2E3T0c0R0h2k353A1o1a
+[ampl_source]: http://cl.ly/2u030f2T2g3S2G2s2o1k
