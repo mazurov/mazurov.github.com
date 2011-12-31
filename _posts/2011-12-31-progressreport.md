@@ -37,10 +37,27 @@ My C++ library for reading property values from files or strings
   guaranteed long-term support.
 
 ### 01.06.2011 - 31.12.2011 Implemented new Gaudi parsers tool.
-Implemented Gaudi Profiling Auditors
+My C++ Gaudi Profiling Auditors.
 
 * Measuring of dynamic metrics of code CPU time spent in function
-* Memory MB allocated in function
+* Memory MB allocated in function.
+
+* **Abstract: Advanced Modular Software Performance Monitoring**
+The LHCb software is based on the Gaudi framework, on top of which are built several
+large and complex software applications. The LHCb experiment is now in the active phase
+of collecting and analyzing data and significant performance problems arise in the Gaudi
+based software beginning from High Level Trigger (HLT) programs and ending with data
+analysis frameworks (DaVinci). It’s not easy to find hot spots in the code - only special
+tools can help to understand where CPU or memory usage is not reasonable. There exist
+many performance analyzing tools, but the main problem is that they show reports in
+terms of class and function names and such information usually is not very useful - the
+majority of algorithm developers use the Gaudi framework abstractions and usually do
+not know about functions which lie at the lower level. We will show a new approach which
+adds to performance reports a higher abstraction level based on knowledge of framework
+architecture and run-time object properties. A set of profiling tools (based on sampling
+and unwind library - a software for introspection of the program call-chain) and
+visualizing interfaces has been developed and deployed.
+
 
 
 #Example Report
