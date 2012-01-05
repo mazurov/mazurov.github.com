@@ -75,7 +75,7 @@ cputree_load_rows = function(path, node) {
   result = [];
   for (_i = 0, _len = children.length; _i < _len; _i++) {
     row = children[_i];
-    result.push([row[0] + " (" + row[2].length + ")", row[1], JSON.stringify(path.concat(row[0]))]);
+    result.push([row[0] + " " + row[3] + "% (" + row[2].length + ")", row[1], JSON.stringify(path.concat(row[0]))]);
   }
   return result;
 };
@@ -83,7 +83,7 @@ cputree_load_rows = function(path, node) {
 cputree_table_rows = function(parent, level) {
   var child, result, _i, _len, _ref;
   result = [];
-  result.push([Array(level).join('-') + parent[0], parent[1]]);
+  result.push([Array(level).join('-') + parent[0], parent[1], parent[3]]);
   _ref = parent[2];
   for (_i = 0, _len = _ref.length; _i < _len; _i++) {
     child = _ref[_i];
@@ -97,6 +97,7 @@ cputree_table = function(db, placeholder) {
   data = new google.visualization.DataTable();
   data.addColumn('string', 'Component name');
   data.addColumn('number', 'CPU time (ms)');
+  data.addColumn('number', 'CPU time (%)');
   data.addRows(cputree_table_rows(db, 1));
   visualization = new google.visualization.Table(document.getElementById(placeholder));
   return visualization.draw(data, null);

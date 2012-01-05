@@ -15,11 +15,10 @@ This progress report should present:
 ## Terms of Reference
 Catherine.Zimmermann@cern.ch, PH Departmental Secretariat 
 
-## Review
-### 01.02.2011 - 01.06.2011 Implemented new Gaudi parsers tool.
-My C++ library for reading property values from files or strings
+## Implemented new Gaudi parsers tool
+Implemented C++ library for reading property values from files or strings
 
-* **Gaudi v22r3 (2011)**:
+* ** Releases in Gaudi v22r3 (2011)**:
   * Based on Boost.Spirit v2.x parser generator
   * Fully rewritten
   * Backward compatible with the previous version
@@ -36,14 +35,19 @@ My C++ library for reading property values from files or strings
   * Is based on Boost.Spirit v2, that is modern version with
   guaranteed long-term support.
 
-### 01.06.2011 - 31.12.2011 Implemented new Gaudi parsers tool.
-My C++ Gaudi Profiling Auditors.
+## Implemented Gaudi Profiling Auditors
 
-* Measuring of dynamic metrics of code CPU time spent in function
+Implemented  C++ Gaudi Profiling Auditors.
+
+* Measuring of dynamic metrics of code CPU time spent in function.
 * Memory MB allocated in function.
 
-* **Abstract: Advanced Modular Software Performance Monitoring**
-The LHCb software is based on the Gaudi framework, on top of which are built several
+Article abstract on this tool was accepted to 
+"Computing in High Energy and Nuclear Physics 2012" conference:
+
+**Abstract: Advanced Modular Software Performance Monitoring**.
+
+"The LHCb software is based on the Gaudi framework, on top of which are built several
 large and complex software applications. The LHCb experiment is now in the active phase
 of collecting and analyzing data and significant performance problems arise in the Gaudi
 based software beginning from High Level Trigger (HLT) programs and ending with data
@@ -55,12 +59,15 @@ majority of algorithm developers use the Gaudi framework abstractions and usuall
 not know about functions which lie at the lower level. We will show a new approach which
 adds to performance reports a higher abstraction level based on knowledge of framework
 architecture and run-time object properties. A set of profiling tools (based on sampling
-and unwind library - a software for introspection of the program call-chain) and
-visualizing interfaces has been developed and deployed.
+) and  visualizing interfaces has been developed and deployed."
 
+## Objectives for the next reference period
 
+At the first year of my PhD the tool for finding hot spots at LHCb software 
+was developed. Objective for the second year is an optimization of  High Level
+Trigger algorithms using the information extracted from my Gaudi auditors.
 
-#Example Report
+# Example Report
 
 ## Terms of Reference
 

@@ -51,12 +51,12 @@ cputree_load_rows = (path, node) ->
   for row  in children
     #p = path
     #p.push row[0]
-    result.push [row[0] + " ("+row[2].length+")", row[1], JSON.stringify(path.concat(row[0]))]
+    result.push [row[0] + " " + row[3]+"% ("+row[2].length+")", row[1], JSON.stringify(path.concat(row[0]))]
   result
 
 cputree_table_rows = (parent, level) ->
   result = []
-  result.push [Array(level).join('-')+parent[0],parent[1]]
+  result.push [Array(level).join('-')+parent[0],parent[1], parent[3]]
   for child in parent[2]
     result = result.concat cputree_table_rows child, level+1
   result
@@ -65,6 +65,7 @@ cputree_table = (db, placeholder) ->
   data = new google.visualization.DataTable()
   data.addColumn('string', 'Component name')
   data.addColumn('number', 'CPU time (ms)')
+  data.addColumn('number', 'CPU time (%)')
   data.addRows(cputree_table_rows(db, 1))
   #Create and draw the visualization.
   visualization = new google.visualization.Table(document.getElementById(placeholder))
