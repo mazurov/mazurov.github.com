@@ -2,12 +2,37 @@
 layout: post
 title: Projects
 ---
+## Gaudi Intel Profiler
+
+### Description
+[Gaudi][gaudi] CPU profiling auditor. Based on [Intel® VTune™ Amplifier XE ][amplifier].
+
+* 2011&mdash;2012, [CERN][]
+* Languages: C++, python
+
+### Links
+* [Source code repository and documentation][githubprofiler]
+* [Example][githubprofilerexample]
+* [Results of profiling High Level Trigger's lines.][profilerresults]
+* [A perfomance of tcmalloc's functions in comarison with the "new" operator.][tcmalloc]
+
+
+[githubprofiler]: http://goo.gl/xhtTi
+[githubprofilerexample]: http://goo.gl/cLV13
+
+
+[amplifier]: http://software.intel.com/en-us/articles/intel-vtune-amplifier-xe/
+[gaudi]: http://proj-gaudi.web.cern.ch/proj-gaudi/
+[profilerresults]: /cern/hltprofilingresults/
+[tcmalloc]: /cern/tcmalloc
+
+
 ## CastorFS
 
-* Created in spring&nbsp;2009
-* At [CERN][]
-* I create  program which can mount <a href="http://castor.web.cern.ch/castor/">Castor</a> as a POSIX&nbsp;filesystem
+I create  program which can mount <a href="http://castor.web.cern.ch/castor/">Castor</a> as a POSIX&nbsp;filesystem
 
+* Spring&nbsp;2009, [CERN][]
+* Languages: C
 
 ### Description
 [CASTOR][] provides a powerful and rich interface for managing files and pools of
