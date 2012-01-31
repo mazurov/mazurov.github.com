@@ -14,7 +14,7 @@ title: Projects
 * [Source code repository and documentation][githubprofiler]
 * [Example][githubprofilerexample]
 * [Results of profiling High Level Trigger's lines.][profilerresults]
-* [A perfomance of tcmalloc's functions in comarison with the "new" operator.][tcmalloc]
+* [A perfomance of tcmalloc's functions in comparison with the "new" operator.][tcmalloc]
 
 
 [githubprofiler]: http://goo.gl/xhtTi
