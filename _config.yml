@@ -6,3 +6,5 @@ permalink: /:categories/:title
 auto: true
 rdiscount:
   extensions: [smart]
+
+pagesurl: http://amazurov.ru

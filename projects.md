@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Projects
+sitemap:
+  priority: 1
+  changefreq: monthly
+  lastmod: 2012-02-01T18:56:19+02:00
 ---
 ## Gaudi Intel Profiler
 
