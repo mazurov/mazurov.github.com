@@ -8,11 +8,17 @@ title: "Powerlifting programs"
 
 Use a google docs template: ["Powerlifting programs by Askold Suroveckij"][program].
 
+In the file:
+
+1. Squats and deadlift: PT-8 (8 weeks).
+2. Benchpress: base system #1 and system #2.
+
+Have been tested for **3 years**. It works. All other programs you can see on the [Russian's powerlifting forum (rus)][forum].
+
 [program]: https://docs.google.com/previewtemplate?id=0Ag1zWDlANxEodG1MaXFhRXdKX0x5emJzUGRZY2cxMVE&mode=public
+[forum]: http://forum.powerlifting.ru/index.php?showtopic=26406
 
 
-* Have been tested for **3 years**. It works.
-* Rate it if you like it.
 
 ### Askold Sorovetskij's visit to Geneva in 2009
 
