@@ -34,7 +34,7 @@ Courtesy of Andrey Loginov and Pavel Goglov.
 
 [http://cern.ch/powerlifting][club]
 
-[club]: powerlifting
+[club]: http://cern.ch/powerlifting
 
 <img src="https://lh4.googleusercontent.com/-q4Zd6ut3aSg/T5a9oz1GDbI/AAAAAAAADwQ/wjazyOO0WlE/s640/cern_gym_photo.jpg" alt="http://loginov.web.cern.ch/loginov/equipment/" title="http://loginov.web.cern.ch/loginov/equipment/"/>
 
