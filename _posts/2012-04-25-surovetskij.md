@@ -16,7 +16,7 @@ title: "Powerlifting programs"
 1.  Squats and deadlift: PT-8 (8 weeks).
 2.  Benchpress: base system #1 and system #2.
 
-The programs have been tested for **3 years**. It works. All other programs you can see on the [Russian's powerlifting forum (rus)][forum].
+The programs have been tested for **3 years**. It works. The other programs you can see on the [Russian's powerlifting forum (rus)][forum].
 
 [program]: https://docs.google.com/previewtemplate?id=0Ag1zWDlANxEodG1MaXFhRXdKX0x5emJzUGRZY2cxMVE&mode=public
 [program_xls]: http://dl.dropbox.com/u/862762/surovetsky.xls
