@@ -6,16 +6,18 @@ title: "Powerlifting programs"
 ### Programs
 <iframe width="620" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://docs.google.com/embeddedtemplate?id=0Ag1zWDlANxEodG1MaXFhRXdKX0x5emJzUGRZY2cxMVE"></iframe>
 
-Use a google docs template: ["Powerlifting programs by Askold Surovetsky"][program].
+1.  You can use a google docs template: ["Powerlifting programs by Askold Surovetsky"][program].
+2.  or [Excel file][program_xls].
 
-In the file:
+The file contains the following programs:
 
-1. Squats and deadlift: PT-8 (8 weeks).
-2. Benchpress: base system #1 and system #2.
+1.  Squats and deadlift: PT-8 (8 weeks).
+2.  Benchpress: base system #1 and system #2.
 
 Have been tested for **3 years**. It works. All other programs you can see on the [Russian's powerlifting forum (rus)][forum].
 
 [program]: https://docs.google.com/previewtemplate?id=0Ag1zWDlANxEodG1MaXFhRXdKX0x5emJzUGRZY2cxMVE&mode=public
+[program_xls]: http://dl.dropbox.com/u/862762/surovetsky.xls
 [forum]: http://forum.powerlifting.ru/index.php?showtopic=26406
 
 
