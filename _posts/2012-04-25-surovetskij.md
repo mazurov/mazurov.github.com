@@ -4,8 +4,7 @@ title: "Powerlifting programs"
 ---
 
 ### Programs
-<iframe width="620" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://docs.google.com/embeddedtemplate?id=0Ag1zWDlANxEodG1MaXFhRXdKX0x5emJzUGRZY2cxMVE"></iframe>
-
+<iframe width="620" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://drive.google.com/embeddedtemplate?id=0Ag1zWDlANxEodG1MaXFhRXdKX0x5emJzUGRZY2cxMVE"></iframe>
 #### Download:
 
 1.  You can use a google docs template: ["Powerlifting programs by Askold Surovetsky"][program].
