@@ -61,6 +61,11 @@ hr{
 .related a:hover{
   text-decoration: underline;
 }
+
+.related div.tags {
+  display: inline;
+  font-size: 10px;
+}
 h1,h2,h3,h4{
   color: #333;
   font-family: 'Yanone Kaffeesatz', sans-serif;
