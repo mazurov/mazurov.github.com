@@ -15,15 +15,16 @@ sitemap:
 * Languages: C++, python
 
 ### Links
+* [Talk at the CHEP 2012 conference][chep2012talk]
 * [Source code repository and documentation][githubprofiler]
 * [Example][githubprofilerexample]
 * [Results of profiling High Level Trigger's lines.][profilerresults]
 * [A perfomance of tcmalloc's functions in comparison with the "new" operator.][tcmalloc]
 
 
+[chep2012talk]: http://amazurov.ru/cern/chep2012talk/
 [githubprofiler]: http://goo.gl/xhtTi
 [githubprofilerexample]: http://goo.gl/cLV13
-
 
 [amplifier]: http://software.intel.com/en-us/articles/intel-vtune-amplifier-xe/
 [gaudi]: http://proj-gaudi.web.cern.ch/proj-gaudi/
